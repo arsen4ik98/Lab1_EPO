@@ -132,5 +132,6 @@ namespace SElab1
             _customer.receiveBonus(totalBonus);
             return result;
         }
+//test
     }
 }
