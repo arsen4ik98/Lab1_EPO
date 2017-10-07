@@ -1,0 +1,18 @@
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\bin\Debug\SElab1_Test.dll
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\bin\Debug\SElab1_Test.pdb
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\bin\Debug\nunit.framework.dll
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\bin\Debug\SElab1.exe
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\bin\Debug\SElab1.pdb
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\bin\Debug\nunit.framework.xml
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\obj\Debug\SElab1_Test.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\obj\Debug\SElab1_Test.dll
+C:\Users\Andrey\Desktop\Documents\Visual Studio 2013\Projects\SElab1\SElab1_Test\obj\Debug\SElab1_Test.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\SElab1_Test.dll
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\SElab1_Test.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\SElab1.exe
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\SElab1.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\nunit.framework.xml
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\obj\Debug\SElab1_Test.csprojResolveAssemblyReference.cache
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\obj\Debug\SElab1_Test.dll
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\obj\Debug\SElab1_Test.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\nunit.framework.dll

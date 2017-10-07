@@ -1,0 +1,15 @@
+c:\users\andrey\desktop\documents\visual studio 2013\Projects\SElab1\SElab1\bin\Debug\SElab1.exe.config
+c:\users\andrey\desktop\documents\visual studio 2013\Projects\SElab1\SElab1\bin\Debug\SElab1.exe
+c:\users\andrey\desktop\documents\visual studio 2013\Projects\SElab1\SElab1\bin\Debug\SElab1.pdb
+c:\users\andrey\desktop\documents\visual studio 2013\Projects\SElab1\SElab1\obj\Debug\SElab1.csprojResolveAssemblyReference.cache
+c:\users\andrey\desktop\documents\visual studio 2013\Projects\SElab1\SElab1\obj\Debug\SElab1.exe
+c:\users\andrey\desktop\documents\visual studio 2013\Projects\SElab1\SElab1\obj\Debug\SElab1.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1\bin\Debug\SElab1.exe.config
+F:\Программирование\ЭволПО\SElab1\SElab1\obj\Debug\SElab1.exe
+F:\Программирование\ЭволПО\SElab1\SElab1\obj\Debug\SElab1.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1\bin\Debug\SElab1.exe
+F:\Программирование\ЭволПО\SElab1\SElab1\bin\Debug\SElab1.pdb
+F:\Программирование\ЭволПО\SElab1\SElab1\obj\Debug\SElab1.csprojResolveAssemblyReference.cache
+G:\Программирование\ЭволПО\SElab1\SElab1\bin\Debug\SElab1.exe.config
+G:\Программирование\ЭволПО\SElab1\SElab1\obj\Debug\SElab1.exe
+G:\Программирование\ЭволПО\SElab1\SElab1\obj\Debug\SElab1.pdb
