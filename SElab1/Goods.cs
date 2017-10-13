@@ -30,5 +30,42 @@ namespace SElab1
         {
             return _title;
         }
+        public int GetBonus(int _quantity, double _price)
+        {
+            int bonus = 0;
+            switch (getPriceCode())
+            {
+                case Goods.REGULAR:
+                    bonus = (int)(_quantity * _price * 0.05);
+                    break;
+                case Goods.SALE:
+                    bonus = (int)(_quantity * _price * 0.01);
+                    break;
+            }
+            return bonus;
+        }
+
+        public double GetDiscount(int _quantity, double _price)
+        {
+            double discount = 0;
+            switch (getPriceCode())
+            {
+                case Goods.REGULAR:
+                    if (_quantity > 2)
+                        discount = _quantity * _price * 0.03; // 3%
+                    break;
+                case Goods.SPECIAL_OFFER:
+                    if (_quantity > 10)
+                        discount = _quantity * _price * 0.005; // 0.5%
+                    break;
+                case Goods.SALE:
+                    if (_quantity > 3)
+                        discount = _quantity * _price * 0.01; // 0.1%
+                    break;
+            }
+
+            return discount;
+        }
     }
 }
+  

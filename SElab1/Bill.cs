@@ -45,49 +45,12 @@ namespace SElab1
             return getitem;
         }
 
-        public double GetDiscount(Item each)
-        {
-            double discount = 0;
-            switch (each.getGoods().getPriceCode())
-            {
-                case Goods.REGULAR:
-                    if (each.getQuantity() > 2)
-                        discount = GetSum(each) * 0.03; // 3%
-                    break;
-                case Goods.SPECIAL_OFFER:
-                    if (each.getQuantity() > 10)
-                        discount = GetSum(each) * 0.005; // 0.5%
-                    break;
-                case Goods.SALE:
-                    if (each.getQuantity() > 3)
-                        discount = GetSum(each) * 0.01; // 0.1%
-                    break;
-            }
-           
-            return discount;
-        }
-
-        public int GetBonus(Item each)
-        {
-            int bonus = 0;
-            switch (each.getGoods().getPriceCode())
-            {
-                case Goods.REGULAR:
-                    bonus = (int)(GetSum(each) * 0.05);
-                    break;
-                case Goods.SALE:
-                    bonus = (int)(GetSum(each) * 0.01);
-                    break;
-            }
-            return bonus;
-        }
-
-        public double GetSum(Item each)
+        public static double GetSum(Item each)
         {
             double getsum = each.getQuantity() * each.getPrice();
             return getsum;
         }
-
+        
         public double GetUsedBonus(Item each, double thisAmount, double discount)
         {
             double usedBonus = 0;
@@ -115,8 +78,8 @@ namespace SElab1
                 double thisAmount = 0;
                 Item each = (Item)items.Current;
                 //определить сумму для каждой строки
-                double discount = GetDiscount(each);
-                int bonus = GetBonus(each);
+                double discount = each.GetDiscount();
+                int bonus = each.GetBonus();
                 // сумма
                 sumWithDiscount = GetSum(each) - discount;
                 usedBonus = GetUsedBonus(each, sumWithDiscount, discount);
@@ -132,6 +95,5 @@ namespace SElab1
             _customer.receiveBonus(totalBonus);
             return result;
         }
-//test
     }
 }
