@@ -39,17 +39,17 @@ namespace SElab1
         {
             string getitem = "\t" + each.getGoods().getTitle() + "\t" +
                 "\t" + each.getPrice() + "\t" + each.getQuantity() +
-                "\t" + GetSum(each).ToString() +
+                "\t" + each.GetSum().ToString() +
                 "\t" + discount.ToString() + "\t" + thisAmount.ToString() +
                 "\t" + bonus.ToString() + "\n";
             return getitem;
         }
 
-        public static double GetSum(Item each)
-        {
-            double getsum = each.getQuantity() * each.getPrice();
-            return getsum;
-        }
+        //public static double GetSum(Item each)
+        //{
+        //    double getsum = each.getQuantity() * each.getPrice();
+        //    return getsum;
+        //}
         
         public double GetUsedBonus(Item each, double thisAmount, double discount)
         {
@@ -81,7 +81,7 @@ namespace SElab1
                 double discount = each.GetDiscount();
                 int bonus = each.GetBonus();
                 // сумма
-                sumWithDiscount = GetSum(each) - discount;
+                sumWithDiscount = each.GetSum() - discount;
                 usedBonus = GetUsedBonus(each, sumWithDiscount, discount);
                 thisAmount = sumWithDiscount - usedBonus;
                 //показать результаты

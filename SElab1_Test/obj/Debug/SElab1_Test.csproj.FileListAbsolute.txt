@@ -16,3 +16,12 @@ F:\Программирование\ЭволПО\SElab1\SElab1_Test\obj\Debug\SE
 F:\Программирование\ЭволПО\SElab1\SElab1_Test\obj\Debug\SElab1_Test.dll
 F:\Программирование\ЭволПО\SElab1\SElab1_Test\obj\Debug\SElab1_Test.pdb
 F:\Программирование\ЭволПО\SElab1\SElab1_Test\bin\Debug\nunit.framework.dll
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\bin\Debug\SElab1_Test.dll
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\bin\Debug\SElab1_Test.pdb
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\bin\Debug\nunit.framework.dll
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\bin\Debug\SElab1.exe
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\bin\Debug\SElab1.pdb
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\bin\Debug\nunit.framework.xml
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\obj\Debug\SElab1_Test.csprojResolveAssemblyReference.cache
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\obj\Debug\SElab1_Test.dll
+C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1_Test\obj\Debug\SElab1_Test.pdb

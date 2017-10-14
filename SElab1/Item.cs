@@ -43,5 +43,10 @@ namespace SElab1
         {
             return _Goods.GetDiscount(_quantity, _price);
         }
+        public double GetSum()
+        {
+            double getsum = getQuantity() * getPrice();
+            return getsum;
+        }
     }
 }
