@@ -33,6 +33,10 @@ namespace SElab1
         {
             _Goods = arg;
         }
+        public void setGoodsType(Goods arg)
+        {
+            _Goods = arg;
+        }
         // прокси-метод GetBonus()
         public int GetBonus()
         {

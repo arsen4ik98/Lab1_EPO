@@ -54,11 +54,11 @@ namespace SElab1
         public double GetUsedBonus(Item each, double thisAmount, double discount)
         {
             double usedBonus = 0;
-            if ((each.getGoods().getPriceCode() == Goods.REGULAR) && each.getQuantity() > 5)
+            if (each.getGoods().GetType() == typeof(RegularGoods) && each.getQuantity() > 5)
             {
                 usedBonus += _customer.useBonus((int)(thisAmount - discount));
             }
-            if ((each.getGoods().getPriceCode() == Goods.SPECIAL_OFFER) && each.getQuantity() > 1)
+            if (each.getGoods().GetType() == typeof(SpecialOrderGoods) && each.getQuantity() > 1)
             {
                 usedBonus += _customer.useBonus((int)(thisAmount - discount));
             }

@@ -14,7 +14,7 @@ namespace SElab1_Test
         [Test()]
         public void Cola_Test()
         {
-            Goods cola = new Goods("Cola", Goods.REGULAR);
+            Goods cola = new RegularGoods("Cola");
             Item i1 = new Item(cola, 6, 65);
             Customer x = new Customer("test", 10);
             Bill b1 = new Bill(x);
@@ -27,7 +27,7 @@ namespace SElab1_Test
         [Test()]
         public void Pepsi_Test()
         {
-            Goods pepsi = new Goods("Pepsi", Goods.REGULAR);
+            Goods pepsi = new RegularGoods("Pepsi");
             Item i1 = new Item(pepsi, 3, 50);
             Customer x = new Customer("test", 10);
             Bill b1 = new Bill(x);
@@ -40,7 +40,7 @@ namespace SElab1_Test
         [Test()]
         public void Fanta_Test()
         {
-            Goods fanta = new Goods("Fanta", Goods.REGULAR);
+            Goods fanta = new RegularGoods("Fanta");
             Item i1 = new Item(fanta, 1, 35);
             Customer x = new Customer("test", 10);
             Bill b1 = new Bill(x);
@@ -53,8 +53,8 @@ namespace SElab1_Test
         [Test()]
         public void Cola_Pepsi_Test()
         {
-            Goods cola = new Goods("Cola", Goods.REGULAR);
-            Goods pepsi = new Goods("Pepsi", Goods.SALE);
+            Goods cola = new RegularGoods("Cola");
+            Goods pepsi = new SaleGoods("Pepsi");
             Item i1 = new Item(cola, 6, 65);
             Item i2 = new Item(pepsi, 3, 50);
             Customer x = new Customer("test", 10);
@@ -69,8 +69,8 @@ namespace SElab1_Test
         [Test()]
         public void Cola_Fanta_Test()
         {
-            Goods cola = new Goods("Cola", Goods.REGULAR);
-            Goods fanta = new Goods("Fanta", Goods.SALE);
+            Goods cola = new RegularGoods("Cola");
+            Goods fanta = new SaleGoods("Fanta");
             Item i1 = new Item(cola, 6, 65);
             Item i2 = new Item(fanta, 1, 35);
             Customer x = new Customer("test", 10);
@@ -85,8 +85,8 @@ namespace SElab1_Test
         [Test()]
         public void Pepsi_Fanta_Test()
         {
-            Goods pepsi = new Goods("Pepsi", Goods.REGULAR);
-            Goods fanta = new Goods("Fanta", Goods.SALE);
+            Goods pepsi = new RegularGoods("Pepsi");
+            Goods fanta = new SaleGoods("Fanta");
             Item i1 = new Item(pepsi, 3, 50);
             Item i2 = new Item(fanta, 1, 35);
             Customer x = new Customer("test", 10);
@@ -101,9 +101,9 @@ namespace SElab1_Test
         [Test()]
         public void Cola_Pepsi_Fanta_Test()
         {
-            Goods cola = new Goods("Cola", Goods.REGULAR);
-            Goods pepsi = new Goods("Pepsi", Goods.REGULAR);
-            Goods fanta = new Goods("Fanta", Goods.SALE);
+            Goods cola = new RegularGoods("Cola");
+            Goods pepsi = new RegularGoods("Pepsi");
+            Goods fanta = new SaleGoods("Fanta");
             Item i1 = new Item(cola, 6, 65);
             Item i2 = new Item(pepsi, 3, 50);
             Item i3 = new Item(fanta, 1, 35);
