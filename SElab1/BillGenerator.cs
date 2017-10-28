@@ -6,14 +6,28 @@ using System.Threading.Tasks;
 
 namespace SElab1
 {
-    public class Bill
+    public class BillGenerator
     {
         private List<Item> _items;
         private Customer _customer;
-        public Bill(Customer customer)
+        private IPresenter p;
+        public IPresenter Preseter
+              {
+            get
+            {
+                return p;
+            }
+            set
+            {
+                p = value;
+
+            }
+        }
+        public BillGenerator(Customer customer, IPresenter p)
         {
             this._customer = customer;
             this._items = new List<Item>();
+            this.p = p;
         }
 
         public void addGoods(Item arg)
@@ -21,29 +35,7 @@ namespace SElab1
             _items.Add(arg);
         }
 
-        public string GetHeader()
-        {
-            string caption = "Счет для " + _customer.getName() + "\n" + "\t" + "Название" + "\t" + "Цена" +
-            "\t" + "Кол-во" + "Стоимость" + "\t" + "Скидка" +
-            "\t" + "Сумма" + "\t" + "Бонус" + "\n";
-            return caption;
-        }
-
-        public string GetFooter(double totalAmount, int totalBonus)
-        {
-            string continuum =  "Сумма счета составляет " + totalAmount.ToString() + "\n" + "Вы заработали " + totalBonus.ToString() + " бонусных балов";
-            return continuum;
-        }
-
-        public string GetItemString(double thisAmount, double discount, int bonus, Item each)
-        {
-            string getitem = "\t" + each.getGoods().getTitle() + "\t" +
-                "\t" + each.getPrice() + "\t" + each.getQuantity() +
-                "\t" + each.GetSum().ToString() +
-                "\t" + discount.ToString() + "\t" + thisAmount.ToString() +
-                "\t" + bonus.ToString() + "\n";
-            return getitem;
-        }
+       
 
         //public static double GetSum(Item each)
         //{
@@ -65,12 +57,12 @@ namespace SElab1
             return usedBonus;
         }
 
-        public String statement()
+        public String GetBill()
         {
             double totalAmount = 0;
             int totalBonus = 0;
             List<Item>.Enumerator items = _items.GetEnumerator();
-            string result = GetHeader();
+            string result = p.GetHeader(_customer);
             while (items.MoveNext())
             {
                 double sumWithDiscount = 0;
@@ -85,12 +77,12 @@ namespace SElab1
                 usedBonus = GetUsedBonus(each, sumWithDiscount, discount);
                 thisAmount = sumWithDiscount - usedBonus;
                 //показать результаты
-                result += GetItemString(thisAmount, discount, bonus, each);
+                result += p.GetItemString(thisAmount, discount, bonus, each);
                 totalAmount += thisAmount;
                 totalBonus += bonus;
             }
             //добавить нижний колонтитул
-            result += GetFooter(totalAmount, totalBonus);
+            result += p.GetFooter(totalAmount, totalBonus);
             //Запомнить бонус клиента
             _customer.receiveBonus(totalBonus);
             return result;
