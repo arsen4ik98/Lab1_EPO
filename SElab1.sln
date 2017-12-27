@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SElab1", "SElab1\SElab1.csproj", "{9DDC373F-027C-43BA-AB84-D0BA9F5F4EB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SElab1_Test", "SElab1_Test\SElab1_Test.csproj", "{10C510A4-8223-44E5-9B7F-325FA0080EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainLib", "MainLib\MainLib.csproj", "{CE06DD97-5AD4-4DE3-91AE-CC420D142509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms", "Forms\Forms.csproj", "{39C82891-7F0D-4916-AFF2-127C26A7D2FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{10C510A4-8223-44E5-9B7F-325FA0080EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10C510A4-8223-44E5-9B7F-325FA0080EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C510A4-8223-44E5-9B7F-325FA0080EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE06DD97-5AD4-4DE3-91AE-CC420D142509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE06DD97-5AD4-4DE3-91AE-CC420D142509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE06DD97-5AD4-4DE3-91AE-CC420D142509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE06DD97-5AD4-4DE3-91AE-CC420D142509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C82891-7F0D-4916-AFF2-127C26A7D2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C82891-7F0D-4916-AFF2-127C26A7D2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C82891-7F0D-4916-AFF2-127C26A7D2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C82891-7F0D-4916-AFF2-127C26A7D2FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

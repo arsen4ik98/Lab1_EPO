@@ -1,0 +1,4 @@
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\Forms\obj\Debug\Forms.csprojResolveAssemblyReference.cache
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\Forms\obj\Debug\Forms.Form1.resources
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\Forms\obj\Debug\Forms.csproj.GenerateResource.Cache
