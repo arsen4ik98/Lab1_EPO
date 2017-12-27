@@ -38,11 +38,11 @@ namespace SElab1
         public double GetUsedBonus(Item each, double thisAmount, double discount)
         {
             double usedBonus = 0;
-            if (each.getGoods().GetType() == typeof(RegularGoods) && each.getQuantity() > 5)
+            if (each.getGoods().GetType() == typeof(Goods) && each.getQuantity() > 5)
             {
                 usedBonus += _customer.useBonus((int)(thisAmount - discount));
             }
-            if (each.getGoods().GetType() == typeof(SpecialOrderGoods) && each.getQuantity() > 1)
+            if (each.getGoods().GetType() == typeof(BonusFixed) && each.getQuantity() > 1)
             {
                 usedBonus += _customer.useBonus((int)(thisAmount - discount));
             }
@@ -62,8 +62,8 @@ namespace SElab1
                 double thisAmount = 0;
                 Item each = (Item)items.Current;
                 //определить сумму для каждой строки
-                double discount = each.GetDiscount();
-                int bonus = each.GetBonus();
+                double discount = each.ExecuteOperationDiscount();
+                int bonus = each.ExecuteOperationBonus();
                 // сумма
                 sumWithDiscount = each.GetSum() - discount;
                 usedBonus = GetUsedBonus(each, sumWithDiscount, discount);

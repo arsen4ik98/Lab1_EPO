@@ -38,14 +38,14 @@ namespace SElab1
             _Goods = arg;
         }
         // прокси-метод GetBonus()
-        public int GetBonus()
+        public int ExecuteOperationBonus()
         {
-            return _Goods.GetBonus(_quantity, _price);
+            return _Goods.ExecuteOperationBonus(_quantity, _price);
         }
         // прокси-метод GetDiscount()
-        public double GetDiscount()
+        public double ExecuteOperationDiscount()
         {
-            return _Goods.GetDiscount(_quantity, _price);
+            return _Goods.ExecuteOperationDiscount(_quantity, _price);
         }
         public double GetSum()
         {

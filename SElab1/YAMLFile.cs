@@ -86,7 +86,6 @@ namespace SElab1
                 b.addGoods(new Item(g[gid - 1], qty, price));
             }
         }
-
         public string GetNextLine(StreamReader sr)
         {
             string line = sr.ReadLine();
