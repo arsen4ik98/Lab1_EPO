@@ -25,3 +25,9 @@ C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаб
 C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1\bin\Debug\SElab1.exe
 C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1\bin\Debug\SElab1.pdb
 C:\Users\Арсен\Desktop\Универ\3 курс\ЭволПО\лабы\лаба 2\Lab1_EPO\SElab1\obj\Debug\SElab1.csprojResolveAssemblyReference.cache
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\SElab1\bin\Debug\SElab1.exe.config
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\SElab1\bin\Debug\SElab1.exe
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\SElab1\bin\Debug\SElab1.pdb
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\SElab1\obj\Debug\SElab1.csprojResolveAssemblyReference.cache
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\SElab1\obj\Debug\SElab1.exe
+C:\Users\psych\Desktop\УЗЩУЗЩУЗЩ\Lab1_EPO\SElab1\obj\Debug\SElab1.pdb

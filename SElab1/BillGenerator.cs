@@ -34,14 +34,6 @@ namespace SElab1
         {
             _items.Add(arg);
         }
-
-       
-
-        //public static double GetSum(Item each)
-        //{
-        //    double getsum = each.getQuantity() * each.getPrice();
-        //    return getsum;
-        //}
         
         public double GetUsedBonus(Item each, double thisAmount, double discount)
         {
