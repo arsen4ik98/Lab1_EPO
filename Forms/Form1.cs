@@ -25,7 +25,7 @@ namespace Forms
             String[] words = bill.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < words.Length - 6; i += 7)
             {
-                CheckDataGridView.Rows.Add(words[i], words[i + 1], words[i + 2], words[i + 3], words[i + 4], words[i + 5], words[i + 6]);
+                dataGridView1.Rows.Add(words[i], words[i + 1], words[i + 2], words[i + 3], words[i + 4], words[i + 5], words[i + 6]);
             }
         }
 

@@ -28,7 +28,7 @@ namespace SElab1
                     break;
                 case "SPO":
                     {
-                        bonus = new BonusSpecialOrderGoods();
+                        bonus = new BonusSpecialOrder();
                         discount = new DiscountSpecialOrderGoods();
                         g1 = new Goods(name, bonus, discount);
                     }

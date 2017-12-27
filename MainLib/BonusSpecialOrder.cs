@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SElab1
 {
-    class BonusSpecialOrder
+    class BonusSpecialOrder : IBonusStrategy
     {
         public int GetBonus(int _quantity, double _price)
         {
